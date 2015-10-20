@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>predicate</string>
+	<string>sleep</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSPredicate *&lt;#name#&gt; = [NSPredicate predicateWithFormat:@"&lt;#row#&gt; = %@",&lt;#variable#&gt;];</string>
+	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, &lt;#time#&gt; * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+    &lt;#code...#&gt;
+	});</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7C24EA48-CC54-47F6-904D-44280CAB6D8B</string>
+	<string>441A0DBC-1749-46A9-AFE6-B783F827C2DB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSPredicate</string>
+	<string>sleep</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
