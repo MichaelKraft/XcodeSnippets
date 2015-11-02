@@ -3,24 +3,39 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sleep</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, &lt;#time#&gt; * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-    &lt;#code...#&gt;
-	});</string>
+	<string>+(instancetype)&lt;#name#&gt; {
+    static &lt;#class#&gt; *singleton = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        singleton = [[self alloc] init];
+    });
+    return singleton;
+}
+
+- (instancetype)init
+{
+    self = [super init];
+    if(self)
+    {
+        &lt;#initialization#&gt;
+    }
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>441A0DBC-1749-46A9-AFE6-B783F827C2DB</string>
+	<string>7BCE5AE8-0114-4451-99DD-ABE6785DA4B9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>sleep</string>
+	<string>Shared Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
