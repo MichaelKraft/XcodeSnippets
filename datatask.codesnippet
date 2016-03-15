@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>extern</string>
+	<string>datatask</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>extern NSString * const &lt;#constant name#&gt;;</string>
+	<string>[[[NSURLSession sharedSession] dataTaskWithRequest:&lt;#request#&gt; completionHandler:^(NSData *data, NSURLResponse *response, NSError *err){
+    &lt;#handling code...#&gt;
+    }] resume];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AC0BEF3C-1F2C-48BE-A2AD-4B092C6F3862</string>
+	<string>42532EC7-B477-4FE3-B2C6-D423B243DF21</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>extern</string>
+	<string>SessionRequest</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
