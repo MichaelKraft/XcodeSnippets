@@ -6,7 +6,7 @@
 	<string>extern</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>extern NSString * const &lt;#constant name#&gt;;</string>
