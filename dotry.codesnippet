@@ -3,24 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>animate</string>
+	<string>dotry</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIView.animateWithDuration(&lt;#duration#&gt;, animations: { () -&gt; Void in
-            &lt;#code#&gt;
-        })</string>
+	<string>do {
+                try &lt;#risky operation#&gt;
+            }
+            catch let error
+            {
+                &lt;#code to handle error#&gt;
+            }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5B215539-F422-448A-B669-01B4B9F3F3BE</string>
+	<string>C014FB3D-152B-4BF9-8BF9-CD5F9C686AD3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Trys a risky operation</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>animate</string>
+	<string>Do Try</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
