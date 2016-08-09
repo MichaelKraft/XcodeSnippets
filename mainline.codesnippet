@@ -6,18 +6,18 @@
 	<string>mainline</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>            dispatch_async(dispatch_get_main_queue(),{ () -&gt; Void in
-                    &lt;#code#&gt;
-                })</string>
+	<string>            DispatchQueue.main.async(execute: { () -&gt; Void in
+                &lt;#code#&gt;
+            })</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B700C103-F6CB-40ED-9555-B165710698F2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>DispatchMain</string>
+	<string>DispatchSwift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
