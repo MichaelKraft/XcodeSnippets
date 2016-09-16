@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>animatewcompletion</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIView.animate(withDuration: &lt;#duration#&gt;, animations: {() -&gt; Void in
-            &lt;#animations#&gt;
-        }, completion: {(Bool) -&gt; Void in
-            &lt;#completion#&gt;
-        })</string>
+	<string>static let &lt;#name#&gt; = &lt;#init()#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>594571DD-D1D5-464C-9F5B-5A3254CC5AE1</string>
+	<string>A8D3565C-EC76-4F38-9C9D-0D882EE3500C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Animate/Completion</string>
+	<string>Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
